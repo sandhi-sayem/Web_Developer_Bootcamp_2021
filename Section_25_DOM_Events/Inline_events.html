@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Inline Events</title>
+    </head>
+
+    <body>
+        <h1>Events</h1>
+        <button onclick="alert('You clicked me!'); alert('Please stop clicking!')">Click Me!</button>
+        <!-- inline javascript is not ideal since it will have to copied over if needed for other buttons -->
+        <button ondblclick="alert('You clicked me!'); alert('Please stop clicking!')">Double Click Me!</button>
+
+        <button id="v2">Click Me (2nd Version)</button>
+        <button id="v3">Click Me (EventListener)</button>
+
+        <button id="tas">Twist and Shout</button>
+        <script src="Inline_events.js"></script>
+    </body>
+
+</html>

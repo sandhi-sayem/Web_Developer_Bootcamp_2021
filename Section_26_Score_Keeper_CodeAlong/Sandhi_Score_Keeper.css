@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+}
+
+#buttons {
+    margin-top: 10px;
+}
+
+#p1button, #p2button, #resetbutton {
+    width: 7rem;
+    height: 2rem;
+    color: white;
+}
+
+#p1button {
+    background-color: purple;
+}
+
+#p2button {
+    background-color: blue;
+}
+
+#resetbutton {
+    background-color: red;
+}
+
+#scores {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+#maxgamelabel {
+    font-weight: bold;
+    font-size: 1rem;
+}
